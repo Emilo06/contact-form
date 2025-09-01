@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a5acd, #4a90e2);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 850px;
+            margin: 40px auto;
+            display: flex;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .left {
+            width: 40%;
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+        }
+
+        .left h2 {
+            margin-top: 0;
+        }
+
+        .left p {
+            margin: 12px 0;
+            line-height: 1.4;
+        }
+
+        .right {
+            width: 60%;
+            padding: 30px;
+        }
+
+        .right h2 {
+            margin-top: 0;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            margin: 8px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background: #4a90e2;
+            color: white;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <h2>Get In Touch</h2>
+        <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        <p><b>Email:</b> contact@example.com</p>
+        <p><b>Phone:</b> +1 (555) 123-4567</p>
+        <p><b>Address:</b><br>123 Business Ave, Suite 100<br>City, State 12345</p>
+    </div>
+
+    <div class="right">
+        <h2>Send Message</h2>
+        <form>
+            <input type="text" name="fname" placeholder="First Name">
+            <input type="text" name="lname" placeholder="Last Name">
+            <input type="email" name="email" placeholder="Email Address">
+            <input type="text" name="phone" placeholder="Phone Number">
+            
+            <select>
+                <option>Select a subject</option>
+                <option>General</option>
+                <option>Support</option>
+                <option>Feedback</option>
+            </select>
+
+            <textarea rows="4" placeholder="Your Message"></textarea>
+
+            <p>
+                <input type="checkbox"> I would like to receive updates<br>
+                <input type="checkbox"> I agree to the Terms and Privacy Policy
+            </p>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
